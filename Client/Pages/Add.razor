@@ -1,0 +1,29 @@
+﻿@page "/Add"
+
+<link href="~/css/addform.css" rel="stylesheet" />
+<link href="~/css/fontawesome-free-6.5.1-web/css/all.css" rel="stylesheet" />
+<link href="~/css/fontawesome-free-6.5.1-web/css/all.min.css" rel="stylesheet" />
+<script src="~/css/fontawesome-free-6.5.1-web/js/all.js"></script>
+<script src="~/css/fontawesome-free-6.5.1-web/js/all.min.js"></script>
+
+
+<h3>Add</h3>
+
+<form class="form-control" id="form" method="post" action="/" enctype="application/x-www-form-urlencoded">
+	<label class="form-label" for="fName">First Name</label>
+	<input class="form-control" placeholder="First Name..." type="text" id="fName"/>
+	<label class="form-label" for="lName">Last Name</label>
+	<input class="form-control" placeholder="Last Name..." id="lName" type="text" />
+	<label class="form-label" for="email">Email</label>
+	<input class ="form-control" type="text" id="email" placeholder="example@mail.to"/>
+	<label class="form-label" for="phone">Phone</label>
+	<input class="form-control" id="phone" type="text" placeholder="123XXXXX"/>
+	<button class="btn btn-outline-warning btn-lg mt-3">
+		<i class=""></i>
+		Add Contact
+	</button>
+</form>
+
+@code {
+	
+}

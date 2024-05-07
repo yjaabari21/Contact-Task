@@ -1,0 +1,52 @@
+﻿@page "/"
+@using ContactListTask.Server.Service
+@using ContactListTask.Shared
+@using ContactListTask.Server.Models
+@inject ContactService MyService
+
+
+<PageTitle>Index</PageTitle>
+
+@foreach(var entity in entities!)
+{
+  <div class="card" style="width: 18rem;">
+      <div class="btns">
+          <button @onclick="() => EditEntity(entity.Id)" class="fa-primary">
+              <span class="fa-solid fa-edit"></span>
+              Edit
+          </button>
+            <button @onclick="() => DeleteEntity(entity.Id)" class="fa-danger">
+                <span class="fa-solid fa-edit"></span>
+                delete
+            </button>
+      </div>
+    <div class="card-body">
+     <h5 class="card-title">@entity.FirstName</h5>
+     <h6 class="card-subtitle mb-2 text-muted">@entity.LastName</h6>
+     <p class="card-text">@entity.Phone</p>
+     <p class="card-link">@entity.Email</p>
+    </div>
+</div>
+}
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+<SurveyPrompt Title="How is Blazor working for you?" />
+@code{
+    List<ContactList>? entities;
+
+    protected override async Task OnInitializedAsync()
+    {
+        entities = await MyService.GetAllContacts();
+    }
+
+    private async Task EditEntity(int id) => await MyService.UpdateAsync(entities);
+
+    private async Task DeleteEntity(int id)
+    {
+        await MyService.DeleteAsync(id);
+        entities = await MyService.GetAllContact();
+    }
+}
