@@ -1,0 +1,15 @@
+form {
+    background-color: #dbd6d6;
+    
+}
+form label{
+    font-family:Britannic;
+    font-weight: bold;
+    padding:  12px 0;
+}
+form input{
+    margin:12px 0;
+}
+form input[placeholder]{
+    text-transform:capitalize;
+}
