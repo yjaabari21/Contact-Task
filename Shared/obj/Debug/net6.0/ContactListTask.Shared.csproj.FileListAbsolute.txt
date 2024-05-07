@@ -1,0 +1,14 @@
+C:\Users\DELL\source\repos\ContactListTask\ContactListTask\Shared\bin\Debug\net6.0\ContactListTask.Shared.deps.json
+C:\Users\DELL\source\repos\ContactListTask\ContactListTask\Shared\bin\Debug\net6.0\ContactListTask.Shared.dll
+C:\Users\DELL\source\repos\ContactListTask\ContactListTask\Shared\bin\Debug\net6.0\ContactListTask.Shared.pdb
+C:\Users\DELL\source\repos\ContactListTask\ContactListTask\Shared\obj\Debug\net6.0\ContactListTask.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\source\repos\ContactListTask\ContactListTask\Shared\obj\Debug\net6.0\ContactListTask.Shared.AssemblyInfoInputs.cache
+C:\Users\DELL\source\repos\ContactListTask\ContactListTask\Shared\obj\Debug\net6.0\ContactListTask.Shared.AssemblyInfo.cs
+C:\Users\DELL\source\repos\ContactListTask\ContactListTask\Shared\obj\Debug\net6.0\ContactListTask.Shared.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\ContactListTask\ContactListTask\Shared\obj\Debug\net6.0\ContactListTask.Shared.dll
+C:\Users\DELL\source\repos\ContactListTask\ContactListTask\Shared\obj\Debug\net6.0\refint\ContactListTask.Shared.dll
+C:\Users\DELL\source\repos\ContactListTask\ContactListTask\Shared\obj\Debug\net6.0\ContactListTask.Shared.pdb
+C:\Users\DELL\source\repos\ContactListTask\ContactListTask\Shared\obj\Debug\net6.0\ref\ContactListTask.Shared.dll
+C:\Users\DELL\source\repos\ContactListTask\ContactListTask\Shared\bin\Debug\net6.0\ContactListTask.Shared.runtimeconfig.json
+C:\Users\DELL\source\repos\ContactListTask\ContactListTask\Shared\obj\Debug\net6.0\ContactListTask.Shared.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\ContactListTask\ContactListTask\Shared\obj\Debug\net6.0\ContactListTask.Shared.genruntimeconfig.cache
